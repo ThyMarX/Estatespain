@@ -1,0 +1,35 @@
+@charset "utf-8";
+/*
+ Theme Name:   child-of-twentyseventeen
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Twenty Fifteen Child Theme
+ Author:       Mathias Knudsen
+ Author URI:   http://example.com
+ Template:     twentyseventeen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fifteen-child
+*/
+
+
+
+@media screen and (min-width: 48em) {
+	.custom-logo-link img {
+		max-width: 700px;
+	}
+}
+
+.custom-logo-link img {
+    /* display: inline-block; */
+    max-height: 160px;
+    /* width: auto; */
+}
+
+
+
+
+a:link {
+  color: #ffffff !important;
+}
